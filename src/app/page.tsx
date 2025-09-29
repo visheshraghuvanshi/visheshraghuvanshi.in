@@ -38,7 +38,7 @@ export default function Home() {
               Crafting Digital Experiences
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10">
-              Hi, I'm Vishesh Kumar. I build robust and scalable web applications, transforming complex ideas into elegant, user-friendly solutions.
+              Hi, I&apos;m Vishesh Kumar. I build robust and scalable web applications, transforming complex ideas into elegant, user-friendly solutions.
             </p>
             <div className="flex justify-center gap-4">
               <Link href="/projects" passHref>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tighter mb-4">Featured Projects</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-12">
-              Here's a selection of my work that showcases my problem-solving skills.
+              Here&apos;s a selection of my work that showcases my problem-solving skills.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">

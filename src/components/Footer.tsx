@@ -24,10 +24,10 @@ export default function Footer() {
       <div className="py-12 md:py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">
-            Let's Build Something Amazing
+            Let&apos;s Build Something Amazing
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-            Have a project in mind or an opportunity to discuss? I'm always open to connecting.
+            Have a project in mind or an opportunity to discuss? I&apos;m always open to connecting.
           </p>
           <Link href="/contact">
             <Button size="lg">Get In Touch</Button>

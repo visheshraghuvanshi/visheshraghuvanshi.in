@@ -82,7 +82,7 @@ export default function ContactPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Or Send a Message Directly</CardTitle>
-                <CardDescription>Fill out the form below and I'll get back to you as soon as I can.</CardDescription>
+                <CardDescription>Fill out the form below and I&apos;ll get back to you as soon as I can.</CardDescription>
               </CardHeader>
               <CardContent>
                 <ContactForm />

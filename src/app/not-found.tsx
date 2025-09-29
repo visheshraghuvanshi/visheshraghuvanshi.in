@@ -37,7 +37,7 @@ export default function NotFound() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.4 }}
       >
-        Oops! It seems you've taken a wrong turn.
+        Oops! It seems you&apos;ve taken a wrong turn.
       </motion.p>
 
       <motion.div
