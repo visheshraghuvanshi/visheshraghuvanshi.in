@@ -49,8 +49,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/visheshraghuvanshi/visheshraghuvanshi.in.git](https://github.com/visheshraghuvanshi/visheshraghuvanshi.in.git)
-    cd your-repo-name
+    git clone https://github.com/visheshraghuvanshi/visheshraghuvanshi.in.git
+    cd visheshraghuvanshi.in
     ```
 
 2.  **Install dependencies:**
