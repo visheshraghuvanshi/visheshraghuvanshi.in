@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vishesh Kumar - Software Developer Portfolio
 
-## Getting Started
+![Portfolio Homepage Screenshot][screenshot]
 
-First, run the development server:
+This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and professional background as a computer science graduate. The site is built with a modern, performant, and highly maintainable tech stack.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Live Demo:** [**www.visheshraghuvanshi.in**](https://www.visheshraghuvanshi.in)
+
+---
+
+## ✨ Features
+
+-   **Modern Tech Stack:** Built with **Next.js 14** (App Router), **TypeScript**, and **Tailwind CSS** for a fast, type-safe, and beautifully styled experience.
+-   **Component Library:** Uses **`shadcn/ui`** for a clean, accessible, and themeable component system that I can fully own and customize.
+-   **Fully Responsive:** Designed with a mobile-first approach to look and work perfectly on all devices, from phones to desktops.
+-   **Light & Dark Mode:** Includes a theme toggle, with a professional color palette designed for both modes, saving the user's preference in their browser.
+-   **Custom Fonts:** Integrates a custom display font (`FoundationOne`) for branding and the `Poppins` font for clean, readable body text, all optimized with `next/font`.
+-   **Animations:** Uses **`framer-motion`** for smooth page transitions and engaging, "popping" animations that enhance the user experience.
+-   **Multi-Page Architecture:** Features dedicated pages for a detailed **Projects Showcase**, a web-based **Interactive Resume**, and a functional **Contact Page**.
+-   **Interactive Forms:** A robust contact form with client-side validation using **Zod** and **React Hook Form**.
+-   **Polished UX:** Includes user-friendly features like toast notifications for form submissions, a 404 page, and a consistent, professional design throughout.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category          | Technology                                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Framework** | [Next.js](https://nextjs.org/)                                                                              |
+| **Language** | [TypeScript](https://www.typescriptlang.org/)                                                               |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/)                                                                    |
+| **Components** | [shadcn/ui](https://ui.shadcn.com/)                                                                         |
+| **Animation** | [Framer Motion](https://www.framer.com/motion/)                                                             |
+| **Form Handling** | [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)                                       |
+| **Deployment** | [Vercel](https://vercel.com/)                                                                               |
+
+---
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+-   Node.js (v18 or later)
+-   npm or yarn
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/visheshraghuvanshi/visheshraghuvanshi.in.git](https://github.com/visheshraghuvanshi/visheshraghuvanshi.in.git)
+    cd your-repo-name
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Place custom font file:**
+    -   Make sure your custom font file (e.g., `FoundationOne.ttf`) is placed inside the `src/fonts` directory.
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Deployment
 
-## Learn More
+This portfolio is deployed on **Vercel**, the platform built by the creators of Next.js. Vercel provides seamless, continuous deployment from GitHub, ensuring the live site is always up-to-date with the latest changes on the `main` branch.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[screenshot]: https://i.ibb.co/Y4KNwwg2/Screenshot-2025-09-29-184810.png
