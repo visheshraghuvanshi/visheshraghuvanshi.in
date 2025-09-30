@@ -26,7 +26,7 @@ export default function ProjectsPage() {
       title: "Doubt Solving Portal (DSP)",
       description: "A web application enabling students to ask questions, get faculty responses, and engage in collaborative learning.",
       tags: ["PHP", "MySQL", "Collaborative Learning"],
-      imageUrl: "/project-placeholder.png",
+      imageUrl: "https://i.ibb.co/XZhCVKrP/Screenshot-2025-09-30-101614.png",
       githubUrl: "https://github.com/visheshraghuvanshi/dsp",
       liveUrl: "https://dsp.page.gd/index.php",
     },
