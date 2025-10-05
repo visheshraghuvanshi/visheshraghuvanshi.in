@@ -4,7 +4,7 @@ import { motion, Variants } from 'framer-motion';
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Globe, Github, Download } from "lucide-react";
+import { Mail, Phone, Globe, Github, Download, ExternalLink } from "lucide-react";
 
 export default function ResumePage() {
   const sectionVariants: Variants = {
@@ -13,6 +13,14 @@ export default function ResumePage() {
   };
 
   const skills = ["Java", "JavaScript", "PHP", "SQL", "Spring Boot", "React", "MySQL", "HTML5", "CSS3", "Tailwind", "Git & GitHub"];
+
+  const certifications = [
+    { name: "SQL Intermediate", issuer: "HackerRank", date: "Mar 2023", url: "https://www.hackerrank.com/certificates/c168670a37b5" },
+    { name: "SQL Basics", issuer: "HackerRank", date: "Mar 2023", url: "https://www.hackerrank.com/certificates/01c5ee523753" },
+    { name: "Java Basics", issuer: "HackerRank", date: "Mar 2023", url: "https://www.hackerrank.com/certificates/7729385bb33d" },
+    { name: "SQL", issuer: "SoloLearn", date: "Dec 2022", url: "https://www.sololearn.com/Certificate/CT-8UIDGWUL/pdf" },
+    { name: "Programming Basics", issuer: "IITBOMBAYX", date: "May 2022 | Grade: A+", url: "https://certificate.iitbombayx.in/downloads/ef579ada82934c428dffc2135aa1c718/Certificate.pdf" },
+  ];
 
   return (
     <div className="bg-secondary/50">
@@ -33,7 +41,6 @@ export default function ResumePage() {
 
         <div className="space-y-8">
 
-          {/* This section animates instantly on load */}
           <motion.section 
             variants={sectionVariants} 
             initial="hidden" 
@@ -65,7 +72,6 @@ export default function ResumePage() {
             </Card>
           </motion.section>
 
-          {/* This section animates with a slight delay */}
           <motion.section 
             variants={sectionVariants} 
             initial="hidden" 
@@ -107,7 +113,6 @@ export default function ResumePage() {
             </Card>
           </motion.section>
           
-          {/* This section animates with a further delay */}
           <motion.section 
             variants={sectionVariants} 
             initial="hidden" 
@@ -115,7 +120,9 @@ export default function ResumePage() {
             transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
           >
             <Card>
-              <CardHeader><CardTitle>Skills</CardTitle></CardHeader>
+              <CardHeader>
+                <CardTitle>Skills</CardTitle>
+              </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   {skills.map(skill => <Badge key={skill}>{skill}</Badge>)}
@@ -124,12 +131,40 @@ export default function ResumePage() {
             </Card>
           </motion.section>
 
-          {/* This section animates last */}
           <motion.section 
             variants={sectionVariants} 
             initial="hidden" 
             animate="visible"
             transition={{ duration: 0.5, ease: "easeOut", delay: 0.6 }}
+          >
+            <Card>
+              <CardHeader>
+                <CardTitle>Certifications</CardTitle>
+                <CardDescription>A collection of my certified skills and achievements.</CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                {certifications.map(cert => (
+                  <div key={cert.name + cert.issuer} className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 pt-4 border-t first:pt-0 first:border-none">
+                    <div>
+                      <h3 className="font-semibold">{cert.name}</h3>
+                      <p className="text-sm text-muted-foreground">{cert.issuer} | {cert.date}</p>
+                    </div>
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer">
+                       <Button variant="link" className="p-0 h-auto text-sm">
+                         View Certificate <ExternalLink className="ml-2 h-4 w-4" />
+                       </Button>
+                    </a>
+                  </div>
+                ))}
+              </CardContent>
+            </Card>
+          </motion.section>
+
+          <motion.section 
+            variants={sectionVariants} 
+            initial="hidden" 
+            animate="visible"
+            transition={{ duration: 0.5, ease: "easeOut", delay: 0.8 }}
           >
             <Card>
               <CardHeader><CardTitle>Education</CardTitle></CardHeader>
