@@ -44,7 +44,7 @@ export default function ProjectsPage() {
           transition={{ duration: 0.7 }}
           className="text-center max-w-2xl mx-auto"
         >
-          <h1 className="font-serif text-4xl md:text-6xl font-bold tracking-tighter mb-4">My Work</h1>
+          <h1 className="font-serif text-4xl md:text-6xl font-bold tracking-wide mb-4">My Work</h1>
           <p className="text-lg text-muted-foreground">
             A collection of my projects that demonstrate my skills in turning ideas into functional and user-friendly applications.
           </p>

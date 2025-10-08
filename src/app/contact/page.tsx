@@ -25,7 +25,7 @@ export default function ContactPage() {
           transition={{ duration: 0.7 }}
           className="text-center max-w-2xl mx-auto"
         >
-          <h1 className="font-serif text-4xl md:text-6xl font-bold tracking-tighter mb-4">Get In Touch</h1>
+          <h1 className="font-serif text-4xl md:text-6xl font-bold tracking-wide mb-4">Get In Touch</h1>
           <p className="text-lg text-muted-foreground">
             Whether you have a project idea, a question, or just want to connect, I&apos;d love to hear from you.
           </p>

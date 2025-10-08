@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 const foundation = localFont({
-  src: '../fonts/FoundationOne.ttf',
+  src: '../fonts/SoRandom.ttf',
   display: 'swap',
   variable: '--font-foundation',
 });

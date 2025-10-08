@@ -34,7 +34,7 @@ export default function Home() {
               A Full-Stack Developer
             </Badge>
             {/* --- FONT APPLIED HERE --- */}
-            <h1 className="font-serif text-4xl md:text-7xl font-bold tracking-tighter mb-6">
+            <h1 className="font-serif text-4xl md:text-7xl font-bold tracking-wide mb-6">
               Crafting Digital Experiences
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10">
